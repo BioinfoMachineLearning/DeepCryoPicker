@@ -59,6 +59,3 @@ This project was based on previous matlab versions of this architecture. These p
 
 # Future work
 Current implmentation of region detection has much room for improvment, currently there are many false positives and misclassification of regions. These improvments can be made to the binary mask cleaning as well as region detection and filtering. Improvments can also be made in clustering and preprocessing.
-
-# Questions
-Any questions regarding this repository can be sent to zmlmcb, or emailed at zmlmcb@umsystem.edu or zaclippered@gmail.com
