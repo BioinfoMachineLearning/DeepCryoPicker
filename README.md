@@ -40,11 +40,11 @@ This project was based on previous matlab versions of this architecture. These p
   DeepCryoPicker: Fully Automated Deep Neural Network for Single Protein Particle Picking in cryo-EM. https://link.springer.com/article/10.1186/s12859-020-03809-7
   AutoCryoPicker: an unsupervised learning approach for fully automated single particle picking in cryo-EM images.https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2926-y
  
-#Video Demo
+# Video Demo
 a video demo and explanation for this repository can be found here:
 
-#future work
+# Future work
 current implmentation of region detection has much room for improvment, currently there are many false positives and misclassification of regions. These improvments can be made to the binary mask cleaning as well as region detection and filtering. Improvments can also be made in clustering and preprocessing.
 
-#Questions
+# Questions
 any questions regarding this repository can be sent to zmlmcb, or emailed at zmlmcb@umsystem.edu or zaclippered@gmail.com
