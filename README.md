@@ -56,8 +56,6 @@ This project was based on previous matlab versions of this architecture. These p
 
     AutoCryoPicker: an unsupervised learning approach for fully automated single particle picking in cryo-EM images.https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2926-y
  
-# Video Demo
-A video demo and explanation for this repository can be found here:
 
 # Future work
 Current implmentation of region detection has much room for improvment, currently there are many false positives and misclassification of regions. These improvments can be made to the binary mask cleaning as well as region detection and filtering. Improvments can also be made in clustering and preprocessing.
