@@ -9,6 +9,13 @@ We propose DeepCryoPicker, a fully automated, unsupervised approach for single p
 approach, aided by earlier preprocessing steps, effectively distinguishes between protein particles and background noise, providing a more precise selection of particles.
 DeepCryoPicker will autonomously identify protein particles in cryo-EM micrographs, eliminating the need for human intervention or labeled training data. This breakthrough has the potential to greatly expedite and improve the accuracy of cryo-EM protein structure determination.
 
+# Workflow Chart
+![image of flow](https://github.com/BioinfoMachineLearning/DeepCryoPicker/assets/58675459/029a5a9c-cabe-4df0-81d8-0fd376ab6837)
+
+# Preprocessing results
+![fig12](https://github.com/BioinfoMachineLearning/DeepCryoPicker/assets/58675459/b9731b49-5c20-439b-806d-f9a003a0202a)
+
+
 # Data Sets
 Contains the Data Sets that were used in the building and testing of this project. These include the Raw Data apoferritin, Beta-galactosidase, KLH, and 80S Ribosome. These are just a selct few samples from the much larger data set that can be found here:
 
