@@ -10,22 +10,34 @@ approach, aided by earlier preprocessing steps, effectively distinguishes betwee
 DeepCryoPicker will autonomously identify protein particles in cryo-EM micrographs, eliminating the need for human intervention or labeled training data. This breakthrough has the potential to greatly expedite and improve the accuracy of cryo-EM protein structure determination.
 
 # Data Sets
-contains the Data Sets that were used in the building and testing of this project. These include the Raw Data apoferritin, Beta-galactosidase, KLH, and 80S Ribosome. These are just a selct few samples from the much larger data set that can be found here:
+Contains the Data Sets that were used in the building and testing of this project. These include the Raw Data apoferritin, Beta-galactosidase, KLH, and 80S Ribosome. These are just a selct few samples from the much larger data set that can be found here:
+
   "EMPIAR-10146"- Apoferritin - https://www.ebi.ac.uk/pdbe/emdb/empiar/entry/10146/#&gid=1&pid=1
+  
   EMPIAR-10017-Beta-galactosidase - https://www.ebi.ac.uk/pdbe/emdb/empiar/entry/10017/
+  
   KLH Dataset - http://nramm.nysbc.org/
+  
   EMPIAR-10028-80S ribosome - https://www.ebi.ac.uk/pdbe/emdb/empiar/entry/10028/
+  
  Processed, clustered and output folders will be output into 'Data Sets' locally when running the notebooks. They were not included in this repository to save space
  
  # Notebooks
  Contains all the notebooks used in this project. Each will need to be started manually
  Archive - contains old versions of several notebooks
+ 
    Clustering - Custom - our custom IBC approach, clusters pixels based on their intensity
+   
    Clustering - FCM - clusters using the common FCM algorithm
+   
    Clustering - K Means - clusters using the common k-means algorthim
+   
    Particle Picking - binary mask cleaning and region detection for identifying particles in clustered images
- PreprocessingV2 - preprocessing of .mrc or .png images (Note: this not book takes up to 90 min to run)
+   
+   PreprocessingV2 - preprocessing of .mrc or .png images (Note: this not book takes up to 90 min to run)
+   
  To completly run this program, run all cells in the following order:
+ 
   PreprocessV2 -> Clustering - Custom -> Particle Picking
  
 # Report and Presentations
@@ -36,15 +48,18 @@ contains various notebooks and scripts that were used when developing these note
 
 # Previous models and version
 This project was based on previous matlab versions of this architecture. These previous models can be found here:
+
   DeepCryoEM -https://github.com/jianlin-cheng/DeepCryoEM
+  
   DeepCryoPicker: Fully Automated Deep Neural Network for Single Protein Particle Picking in cryo-EM. https://link.springer.com/article/10.1186/s12859-020-03809-7
+  
   AutoCryoPicker: an unsupervised learning approach for fully automated single particle picking in cryo-EM images.https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2926-y
  
 # Video Demo
-a video demo and explanation for this repository can be found here:
+A video demo and explanation for this repository can be found here:
 
 # Future work
-current implmentation of region detection has much room for improvment, currently there are many false positives and misclassification of regions. These improvments can be made to the binary mask cleaning as well as region detection and filtering. Improvments can also be made in clustering and preprocessing.
+Current implmentation of region detection has much room for improvment, currently there are many false positives and misclassification of regions. These improvments can be made to the binary mask cleaning as well as region detection and filtering. Improvments can also be made in clustering and preprocessing.
 
 # Questions
-any questions regarding this repository can be sent to zmlmcb, or emailed at zmlmcb@umsystem.edu or zaclippered@gmail.com
+Any questions regarding this repository can be sent to zmlmcb, or emailed at zmlmcb@umsystem.edu or zaclippered@gmail.com
