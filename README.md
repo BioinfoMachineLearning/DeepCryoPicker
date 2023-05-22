@@ -66,3 +66,9 @@ This project was based on previous matlab versions of this architecture. These p
 
 # Future work
 Current implmentation of region detection has much room for improvment, currently there are many false positives and misclassification of regions. These improvments can be made to the binary mask cleaning as well as region detection and filtering. Improvments can also be made in clustering and preprocessing.
+
+# Download for Report and Presentation
+The report for this project [DeepCryoPicker Report- ZMLMCB - MAY 2023.pdf](https://github.com/BioinfoMachineLearning/DeepCryoPicker/files/11537257/DeepCryoPicker.Report-.ZMLMCB.-.MAY.2023.pdf)
+The poster that was presented at Mizzou Undergrad Research Fourm Fall 2022 and Spring 2023 [Presentation1.pdf](https://github.com/BioinfoMachineLearning/DeepCryoPicker/files/11537305/Presentation1.pdf)
+
+
